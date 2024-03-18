@@ -1,0 +1,26 @@
+.heading {
+  font-family: "Clash Display", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 100%;
+}
+
+.subheading {
+  font-family: "Clash Display", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.body {
+  font-family: "Manrope", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
