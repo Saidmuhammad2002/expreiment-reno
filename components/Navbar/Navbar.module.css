@@ -3,7 +3,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 27.5px 80px;
-  border: 1px solid red;
   @media screen and (max-width: 768px) {
     padding: 27.5px 20px;
   }

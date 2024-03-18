@@ -1,9 +1,8 @@
 import Typography from "@/components/Typography/Typography";
-import cls from "./contact.module.css";
-import ContactForm from "@/components/ContactForm/ContactForm";
+import cls from "@/app/contact/contact.module.css";
 import LoginForm from "@/components/LoginForm/LoginForm";
 
-const Contact = () => {
+const Login = () => {
   return (
     <div className={cls.main}>
       <Typography variant="heading">
@@ -32,9 +31,9 @@ const Contact = () => {
             </Typography>
           </div>
         </div>
-        <ContactForm />
+        <LoginForm />
       </div>
     </div>
   );
 };
-export default Contact;
+export default Login;

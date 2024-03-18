@@ -1,0 +1,213 @@
+.signUpForm {
+  width: 540px;
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 35px 30px;
+  border-radius: 13px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: black;
+}
+
+.divider {
+  margin: 20px 0;
+  border-bottom: 0.5px solid #cdcfce;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.label {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: block;
+  color: #0d1522;
+  position: relative;
+}
+.input {
+  padding: 14px 40px 14px 15px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: #f5f6f8;
+  width: 100%;
+  font-size: 16px;
+}
+.inputPhone {
+  padding: 14px 48px !important;
+  border: none !important;
+  border-radius: 6px !important;
+  background: #f5f6f8 !important;
+  width: 100% !important;
+  font-size: 16px !important;
+  height: 48px !important;
+  margin-top: 6px !important;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.error {
+  margin-left: 3px;
+  font-size: x-small;
+  color: red;
+}
+
+.checkbox {
+  width: 22px;
+  height: 22px;
+
+  border: none;
+  border: 1px solid #cdcdd0;
+}
+.checkbox:not(:checked):not(:disabled) {
+  appearance: none;
+  background-color: #f5f6f8;
+  border-radius: 5px;
+}
+.checkbox:checked {
+  border-radius: 5px !important;
+  appearance: auto;
+  clip-path: circle(62%);
+  border-radius: 5px;
+}
+
+.termsLabel {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.submitButton,
+.googleButton {
+  width: 100%;
+  padding: 14px 24px;
+  border-radius: 7px;
+  background-color: #274bf1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  max-height: 48px;
+  transition: background-color 0.3s ease;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.googleButton {
+  border-radius: 8;
+  background-color: transparent;
+  border: 1px solid #e3e5e5;
+  display: flex;
+  align-items: center;
+  color: rgba(9, 10, 10, 1);
+
+  justify-content: space-between;
+}
+.googleButton img {
+  width: 20px;
+  height: 20px;
+}
+.googleButton span {
+  flex: 1;
+  font-size: 15px;
+}
+
+.phoneContainer {
+  position: relative;
+}
+
+.phoneInput {
+}
+
+.phoneButton {
+}
+
+.phoneDropdown {
+  color: "black";
+}
+.buttonClass {
+  border: none !important;
+}
+.buttonClass:hover {
+}
+
+.passwords {
+  display: flex;
+  gap: 16px;
+}
+.eyeIcon {
+  position: absolute;
+  bottom: 5%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: #f5f6f8;
+  width: 20px;
+  height: 20px;
+}
+.termsLabel {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0d1522;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.dividerText {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #222427;
+  display: flex;
+  margin: 12px 0;
+}
+
+.dividerText::before,
+.dividerText::after {
+  flex: 1;
+  content: "";
+  padding: 1px;
+  background-color: #eef0f3;
+  margin: 5px;
+}
